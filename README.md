@@ -1,11 +1,9 @@
-A project illustrating how adding data binding to a project with data binding will break the tests.
+# A project illustrating how adding data binding to a project breaks instrumentation tests.
 
-# Output from test run
 Here is the output from a test run I did on a Samsung Galaxy Tab 3 10.1 running Android 4.4.2 (sdk 19)
 
 ## Test Output
 
-    ```
     Testing started at 21.44 ...
     Target device: samsung-gt_p5220-430036c6467e2100
     Installing APK: D:\coding\source\testing\DataBindInstruTest\app\build\outputs\apk\app-debug.apk
@@ -28,7 +26,6 @@ Here is the output from a test run I did on a Samsung Galaxy Tab 3 10.1 running 
     Test running started
     Test failed to run to completion. Reason: 'Instrumentation run failed due to 'java.lang.IllegalAccessError''. Check device logcat for details
     Test running failed: Instrumentation run failed due to 'java.lang.IllegalAccessError'
-    ```
 
 ## ADB output
 
