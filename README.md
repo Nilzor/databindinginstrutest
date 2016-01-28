@@ -27,7 +27,7 @@ Here is the output from a test run I did on a Samsung Galaxy Tab 3 10.1 running 
     Test failed to run to completion. Reason: 'Instrumentation run failed due to 'java.lang.IllegalAccessError''. Check device logcat for details
     Test running failed: Instrumentation run failed due to 'java.lang.IllegalAccessError'
 
-## ADB output
+## Logcat output
 
 ```
 01-28 21:44:51.382 20951-20951/? E/AndroidRuntime: FATAL EXCEPTION: main
