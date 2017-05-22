@@ -53,3 +53,9 @@ Here is the output from a test run I did on a Samsung Galaxy Tab 3 10.1 running 
 01-28 21:44:51.382 2422-2851/? W/ActivityManager:   java.lang.IllegalAccessError: Class ref in pre-verified class resolved to unexpected implementation
 
 ```
+
+## Update: 
+
+Fixed in Gradle 2.3
+
+https://issuetracker.google.com/issues/37056708
